@@ -4,22 +4,15 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Website</title>
-<link href="form.css" rel="stylesheet">
+
 
 </head>
 <body>
-   <div class="heading">
-    <h2 ALIGN="center">ARAR TECHNOLOGIES</h2>
-    </div>
-    <div class="form">
-        <form>
-<label>User name</label><br>
-<input type="text" placeholder="Enter your username"><br>
-<label>Password</label><br>
-<input type="password" placeholder="Enter your Password" required autocapitalize="ALIGN"><br>
-<input type="submit" value="Signin" formaction="https://www.google.com" formtarget="_parent">
-<input type="submit" value="Cancel" >
-</form>
-    </div>
+  <h1 style="color: violet; font-size: 40px;" align="center">HEY WE DEPLOYED OUR APP USING JENKINS</h1>
+	<h1 style="color: red; font-size: 40px;" align="center">THIS IS THE SECOND VERSION OF OUR APP</h1>
+	<h2 style="color: blue; font-size: 40px;" align="center">WELCOME TO JENKINS CLASS</h2>
+	<h2 style="color: green; font-size: 40px;" align="center">THIS IS OUR DEPLOYMENT</h2>
+	<h2 style="color: black; font-size: 40px;" align="center">WE INTEGRATED NEXUS WITH JENKINS</h2>
+	<h2 style="color: blue; font-size: 40px;" align="center">THIS IS NEXUS TOPIC</h2>
 </body>
 </html>
