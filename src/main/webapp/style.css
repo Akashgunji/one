@@ -1,64 +1,88 @@
-body{
-    background-image: url(purple.jpg);
-    background-repeat: no-repeat;
-    background-size: 100%;
+* {
+  padding: 0%;
+  margin: 0%;
+  box-sizing: border-box;
 }
-.item-nav {
-    color: #FFFFFF;
-}
-.item-nav:hover{
-    color: aquamarine;
-    
-}
-.anchor{
-    margin-left: auto;
-}
-.nav-item{
-    display: flex;
-    flex-direction: row;
-    font-family: 'Times New Roman', Times, serif;
-}
-.box{
-    color: #FFFFFF;
 
-    width: 900;
-    height: 60px;
-    font-size: 25px;
-    text-align: justify;
-    padding-left: 100px;
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background-image: url(age.png);
+  background-repeat: repeat-x; 
 
 }
-.box2{
-    border-radius: 15px;
-    width: 260px;
-    height: 260px;
-    align-items: center;
+
+.container {
+  background-color: #CCF381;
+  border: 2px solid  #4831D4;
+  padding: 4vw;
+  margin: auto;
+  width: max-content;
+  border-radius: 10px;
+  box-shadow: 0 0 4px 1px lightgreen;
 }
-.body{
-    height: 50%;
-    background-attachment: fixed;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-}
-.img1{
-    padding-top: 60px;
-    padding-right: 70px;
-    border-radius: 20px;
-    background-attachment: fixed;
-}
-.col-12{
-    height: 200px;
-    color: #FFFFFF;
-    padding-top: 170px;
-    justify-content: center;
-    align-items: center;
+
+h2{
     text-align: center;
-    font-size: 25px;
-    font-family: 'Times New Roman', Times, serif;
-    
+     text-transform: capitalize;
+     text-shadow: #4831D4;
+}
+
+.startdate,
+.enddate {
+  padding: 7px;
+  border: 1px solid black;
+  border-radius: 5px;
+}
+
+.from,
+.to {
+  text-transform: capitalize;
+  padding: 10px;
+}
+
+.inputdata {
+    margin-top: 20px;
+    display: flex;
+    justify-content:center;
+}
+
+.submitdata , .getage
+{
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+}
+.submit  {
+  padding: 7px;
+  border-radius: 5px;
+  border: 1px solid black;
+  text-transform: uppercase;
 
 }
-.p1{
-    text-align: justify;
+
+.submit:hover {
+  background-color:lightgreen;
+  color: white;
+  cursor: pointer;
+  box-shadow: 0 0 4px 1px black;
+  transition: 0.3s;
 }
+
+.container p {
+  color: black;
+  margin: 10px;
+  font-size: 20px;
+  font-weight: bolder;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  text-align: center;
+}
+
+/* #result {
+  width: fit-content;
+  font-weight: bold;
+  font-family: 'Times New Roman', Times, serif;
+  text-align: center;
+} */
